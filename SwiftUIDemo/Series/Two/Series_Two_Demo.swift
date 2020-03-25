@@ -15,7 +15,7 @@ struct Series_Two_Demo: View {
             LinearGradient(gradient: Gradient(colors: [.blue, .black]), startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
             VStack(spacing: 20) {
-                
+
                 Text("Tap on flag ...")
                     .foregroundColor(.white)
                     .font(.system(size: 22))

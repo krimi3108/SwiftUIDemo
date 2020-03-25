@@ -21,6 +21,16 @@ struct NavigationAndFormView: View {
                 /// Section with only a single label
                 Section {
                     Text("Hello World")
+                    
+                    Text("Colored ")
+                        .foregroundColor(.red)
+                    +
+                    Text("SwifUI ")
+                        .foregroundColor(.green)
+                    +
+                    Text("Text")
+                        .foregroundColor(.blue)
+
                 }
                 
                 /// Section with only a Button and header text
@@ -47,6 +57,17 @@ struct NavigationAndFormView: View {
 
 struct NavigationAndFormView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationAndFormView()
+//        NavigationAndFormView()
+        
+        Group {
+            NavigationAndFormView()
+                .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+            NavigationAndFormView()
+                .environment(\.colorScheme, .dark)
+            NavigationView {
+                NavigationAndFormView()
+            }
+        }
+
     }
 }

@@ -10,13 +10,17 @@ import SwiftUI
 
 struct TextfieldView: View {
     @State private var checkAmount = ""
-    
     var body: some View {
+    
         Form {
-        TextField("Amount", text:  $checkAmount)
-            .keyboardType(.decimalPad)
+            /// textfield with @state binding
+            TextField("Amount", text:  $checkAmount)
+                .keyboardType(.decimalPad)
+
+            /// textfield with constant binding
+            TextField("Example placeholder", text: .constant("Hello"))
+                .textFieldStyle(RoundedBorderTextFieldStyle())
         }
-        
     }
 }
 

@@ -23,6 +23,11 @@
 		92F2A84A2429CE21006E11A5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A8492429CE21006E11A5 /* ButtonView.swift */; };
 		92F2A84C2429D3B9006E11A5 /* alertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A84B2429D3B9006E11A5 /* alertView.swift */; };
 		92F2A84E2429FDD5006E11A5 /* Series_Two_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A84D2429FDD5006E11A5 /* Series_Two_Demo.swift */; };
+		92F2A853242B95FE006E11A5 /* EnvironmentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A852242B95FE006E11A5 /* EnvironmentModifier.swift */; };
+		92F2A855242B9664006E11A5 /* ViewAsProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A854242B9664006E11A5 /* ViewAsProperty.swift */; };
+		92F2A857242B968A006E11A5 /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A856242B968A006E11A5 /* ViewComposition.swift */; };
+		92F2A859242B9712006E11A5 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A858242B9712006E11A5 /* CustomModifier.swift */; };
+		92F2A85C242BA2EE006E11A5 /* CustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2A85B242BA2EE006E11A5 /* CustomContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +50,12 @@
 		92F2A8492429CE21006E11A5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		92F2A84B2429D3B9006E11A5 /* alertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertView.swift; sourceTree = "<group>"; };
 		92F2A84D2429FDD5006E11A5 /* Series_Two_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series_Two_Demo.swift; sourceTree = "<group>"; };
+		92F2A851242A0BE0006E11A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92F2A852242B95FE006E11A5 /* EnvironmentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModifier.swift; sourceTree = "<group>"; };
+		92F2A854242B9664006E11A5 /* ViewAsProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAsProperty.swift; sourceTree = "<group>"; };
+		92F2A856242B968A006E11A5 /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
+		92F2A858242B9712006E11A5 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		92F2A85B242BA2EE006E11A5 /* CustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,7 @@
 			children = (
 				92F2A83024291299006E11A5 /* One */,
 				92F2A8312429129E006E11A5 /* Two */,
+				92F2A850242A0BCE006E11A5 /* Three */,
 			);
 			path = Series;
 			sourceTree = "<group>";
@@ -145,6 +157,27 @@
 				92F2A84B2429D3B9006E11A5 /* alertView.swift */,
 			);
 			path = SubComponets;
+			sourceTree = "<group>";
+		};
+		92F2A850242A0BCE006E11A5 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				92F2A851242A0BE0006E11A5 /* README.md */,
+				92F2A85A242B978B006E11A5 /* SubComponents */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		92F2A85A242B978B006E11A5 /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				92F2A852242B95FE006E11A5 /* EnvironmentModifier.swift */,
+				92F2A854242B9664006E11A5 /* ViewAsProperty.swift */,
+				92F2A856242B968A006E11A5 /* ViewComposition.swift */,
+				92F2A858242B9712006E11A5 /* CustomModifier.swift */,
+				92F2A85B242BA2EE006E11A5 /* CustomContainer.swift */,
+			);
+			path = SubComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,17 +253,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				92F2A8462429C688006E11A5 /* ColorWithStack.swift in Sources */,
+				92F2A857242B968A006E11A5 /* ViewComposition.swift in Sources */,
 				92F2A836242912CC006E11A5 /* Series_One_Demo.swift in Sources */,
 				92F2A84A2429CE21006E11A5 /* ButtonView.swift in Sources */,
 				92F2A8442429C269006E11A5 /* StackView.swift in Sources */,
+				92F2A85C242BA2EE006E11A5 /* CustomContainer.swift in Sources */,
 				92F2A81C24291215006E11A5 /* AppDelegate.swift in Sources */,
 				92F2A83C242916D9006E11A5 /* NavigationAndFormView.swift in Sources */,
 				92F2A84C2429D3B9006E11A5 /* alertView.swift in Sources */,
 				92F2A81E24291215006E11A5 /* SceneDelegate.swift in Sources */,
+				92F2A859242B9712006E11A5 /* CustomModifier.swift in Sources */,
 				92F2A84E2429FDD5006E11A5 /* Series_Two_Demo.swift in Sources */,
 				92F2A838242912E2006E11A5 /* PickerView.swift in Sources */,
 				92F2A83A242912EA006E11A5 /* TextfieldView.swift in Sources */,
+				92F2A855242B9664006E11A5 /* ViewAsProperty.swift in Sources */,
 				92F2A8482429C7D7006E11A5 /* GradientView.swift in Sources */,
+				92F2A853242B95FE006E11A5 /* EnvironmentModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +404,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_PREVIEWS = YES;
@@ -377,6 +416,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,7 +426,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = M8A7BYS443;
 				ENABLE_PREVIEWS = YES;
@@ -397,6 +438,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ranosys.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = RanosysWildcard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
