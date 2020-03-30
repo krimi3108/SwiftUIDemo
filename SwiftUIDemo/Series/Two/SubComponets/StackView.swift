@@ -11,7 +11,7 @@ import SwiftUI
 struct StackView: View {
     var body: some View {
         
-        VStack(spacing: 40) { /// can add uptp 10 elements only
+        VStack(spacing: 40) { // can add uptp 10 elements only
             VStack(alignment: .leading, spacing: 20) {
                 Text("Hello Swift UI.....")
                 Text("How are you?")

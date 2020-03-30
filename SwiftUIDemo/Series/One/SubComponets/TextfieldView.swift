@@ -13,11 +13,11 @@ struct TextfieldView: View {
     var body: some View {
     
         Form {
-            /// textfield with @state binding
+            // textfield with @state binding
             TextField("Amount", text:  $checkAmount)
                 .keyboardType(.decimalPad)
 
-            /// textfield with constant binding
+            // textfield with constant binding
             TextField("Example placeholder", text: .constant("Hello"))
                 .textFieldStyle(RoundedBorderTextFieldStyle())
         }

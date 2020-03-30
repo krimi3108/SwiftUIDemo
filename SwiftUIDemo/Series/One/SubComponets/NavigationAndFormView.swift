@@ -18,7 +18,7 @@ struct NavigationAndFormView: View {
         NavigationView {
             Form {
                 
-                /// Section with only a single label
+                // Section with only a single label
                 Section {
                     Text("Hello World")
                     
@@ -33,7 +33,7 @@ struct NavigationAndFormView: View {
 
                 }
                 
-                /// Section with only a Button and header text
+                // Section with only a Button and header text
                 Section(header: (Text("This section is with header"))) {
                     Button("TapCount: \(tapCount)") {
                         self.tapCount += 1

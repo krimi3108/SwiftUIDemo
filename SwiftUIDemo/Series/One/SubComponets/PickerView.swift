@@ -14,14 +14,14 @@ struct PickerView: View {
     @State private var selectecStudent = "Harry"
     var body: some View {
         VStack {
-            /// PickerView with default behaviour
+            // PickerView with default behaviour
             Picker("Select your name", selection: $selectecStudent) {
                 ForEach(0 ..< students.count) {
                     Text("\(self.students[$0])")
                 }
             }
             
-            /// PickerView with Segment
+            // PickerView with Segment
             Picker("Select your name", selection: $selectecStudent) {
                 ForEach(0 ..< students.count) {
                     Text("\(self.students[$0])")

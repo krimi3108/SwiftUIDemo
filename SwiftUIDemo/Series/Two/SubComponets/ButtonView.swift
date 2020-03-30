@@ -11,7 +11,7 @@ import SwiftUI
 struct ButtonView: View {
     var body: some View {
         
-        /// The simplest way to create the button
+        // The simplest way to create the button
         VStack(spacing: 20) {
             Button("Tap Me") {
                 print("Button was Tapped")
@@ -19,14 +19,14 @@ struct ButtonView: View {
             .foregroundColor(.black)
             
             
-            /// Another way to create the button
+            // Another way to create the button
             Button(action: {
                 print("Button was Tapped")
             }) {
                 Text("Another Button").foregroundColor(.purple).font(.system(size: 22, weight: .heavy, design: .serif))
             }
             
-            /// Customize the button
+            // Customize the button
             Button(action: {
                 print("Button was Tapped")
             }) {

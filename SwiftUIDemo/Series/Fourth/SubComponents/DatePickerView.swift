@@ -17,7 +17,7 @@ struct DatePickerView: View {
          .padding()
         
     
-        /// A Date picker with date only
+        // A Date picker with date only
         /*
          DatePicker("", selection: $selectedDate, displayedComponents: .date)
          .labelsHidden() // Remove the Label
@@ -25,15 +25,15 @@ struct DatePickerView: View {
         
         
         
-        ///  A Date picker with time only &
-        ///  Can enclose to form
+        //  A Date picker with time only &
+        //  Can enclose to form
         /*
          Form {
          DatePicker("Please select your date", selection: $selectedDate, in: ...Date() )
          }
         */
         
-        /// let set the range
+        // let set the range
         /*
          //        let now = Date()
          //        let tomorrow = Date().addingTimeInterval(86400)
