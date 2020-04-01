@@ -16,19 +16,15 @@ struct MyTitle: ViewModifier {
             .foregroundColor(.purple)
             .background(Color.yellow)
             .clipShape(RoundedRectangle(cornerRadius: 10))
-        
     }
 }
-
 
 struct WaterMark: ViewModifier {
     var text: String
     
     func body(content: Content) -> some View {
-        
         ZStack(alignment: .bottomTrailing) {
             content
-
             Text(text)
                 .font(.caption)
                 .foregroundColor(.white)
@@ -39,7 +35,7 @@ struct WaterMark: ViewModifier {
 
 extension View {
     func myTitleStyle() -> some View {
-        self.modifier(MyTitle().self)
+        self.modifier(MyTitle())
     }
     
     func waterMarked(text: String) -> some View {

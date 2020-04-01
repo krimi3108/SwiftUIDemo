@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9231822324334B9C00C347B7 /* ControllingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231822224334B9C00C347B7 /* ControllingAnimation.swift */; };
+		923182252433836100C347B7 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923182242433836100C347B7 /* AnimatingGestures.swift */; };
+		9231822724338D2A00C347B7 /* ShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231822624338D2A00C347B7 /* ShowHideView.swift */; };
+		924CFA072431EC2600428DE7 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CFA062431EC2600428DE7 /* AnimationView.swift */; };
+		924CFA092431EC3000428DE7 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CFA082431EC3000428DE7 /* CustomAnimation.swift */; };
+		924CFA0B2431ED8700428DE7 /* AnimationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CFA0A2431ED8700428DE7 /* AnimationBinding.swift */; };
+		927F74692433474C00037CBB /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F74682433474C00037CBB /* ExplicitAnimation.swift */; };
 		92EB59A3242E0169005BADC2 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB59A2242E0169005BADC2 /* StepperView.swift */; };
 		92EB59A5242E0488005BADC2 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB59A4242E0488005BADC2 /* DatePickerView.swift */; };
 		92EB59AC242E2163005BADC2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB59AB242E2163005BADC2 /* ListView.swift */; };
@@ -35,6 +42,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9231822224334B9C00C347B7 /* ControllingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimation.swift; sourceTree = "<group>"; };
+		923182242433836100C347B7 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
+		9231822624338D2A00C347B7 /* ShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideView.swift; sourceTree = "<group>"; };
+		924CFA062431EC2600428DE7 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		924CFA082431EC3000428DE7 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
+		924CFA0A2431ED8700428DE7 /* AnimationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBinding.swift; sourceTree = "<group>"; };
+		927F74682433474C00037CBB /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		929DD62D2431CD55008930F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92EB59A0242E0151005BADC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92EB59A2242E0169005BADC2 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		92EB59A4242E0488005BADC2 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -79,6 +94,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		924CFA052431EC2600428DE7 /* Subcomponents */ = {
+			isa = PBXGroup;
+			children = (
+				924CFA062431EC2600428DE7 /* AnimationView.swift */,
+				924CFA082431EC3000428DE7 /* CustomAnimation.swift */,
+				924CFA0A2431ED8700428DE7 /* AnimationBinding.swift */,
+				927F74682433474C00037CBB /* ExplicitAnimation.swift */,
+				9231822224334B9C00C347B7 /* ControllingAnimation.swift */,
+				923182242433836100C347B7 /* AnimatingGestures.swift */,
+				9231822624338D2A00C347B7 /* ShowHideView.swift */,
+			);
+			path = Subcomponents;
+			sourceTree = "<group>";
+		};
+		927A1B7D2434CCCC004DFD25 /* Seventh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Seventh;
+			sourceTree = "<group>";
+		};
+		929DD62A2431CD0A008930F9 /* Sixth */ = {
+			isa = PBXGroup;
+			children = (
+				929DD62D2431CD55008930F9 /* README.md */,
+				924CFA052431EC2600428DE7 /* Subcomponents */,
+			);
+			path = Sixth;
+			sourceTree = "<group>";
+		};
 		92EB599F242E0142005BADC2 /* Fourth */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +206,8 @@
 				92F2A850242A0BCE006E11A5 /* Three */,
 				92EB599F242E0142005BADC2 /* Fourth */,
 				92EB59A6242E2024005BADC2 /* Fifth */,
+				929DD62A2431CD0A008930F9 /* Sixth */,
+				927A1B7D2434CCCC004DFD25 /* Seventh */,
 			);
 			path = Series;
 			sourceTree = "<group>";
@@ -306,21 +353,28 @@
 				92F2A836242912CC006E11A5 /* Series_One_Demo.swift in Sources */,
 				92F2A84A2429CE21006E11A5 /* ButtonView.swift in Sources */,
 				92F2A8442429C269006E11A5 /* StackView.swift in Sources */,
+				924CFA092431EC3000428DE7 /* CustomAnimation.swift in Sources */,
 				92F2A85C242BA2EE006E11A5 /* CustomContainer.swift in Sources */,
 				92F2A81C24291215006E11A5 /* AppDelegate.swift in Sources */,
 				92EB59A5242E0488005BADC2 /* DatePickerView.swift in Sources */,
 				92F2A83C242916D9006E11A5 /* NavigationAndFormView.swift in Sources */,
 				92EB59AE242E333D005BADC2 /* Series_Fifth_Demo.swift in Sources */,
+				924CFA0B2431ED8700428DE7 /* AnimationBinding.swift in Sources */,
 				92F2A84C2429D3B9006E11A5 /* alertView.swift in Sources */,
 				92F2A81E24291215006E11A5 /* SceneDelegate.swift in Sources */,
 				92EB59AC242E2163005BADC2 /* ListView.swift in Sources */,
 				92F2A859242B9712006E11A5 /* CustomModifier.swift in Sources */,
 				92F2A84E2429FDD5006E11A5 /* Series_Two_Demo.swift in Sources */,
+				9231822324334B9C00C347B7 /* ControllingAnimation.swift in Sources */,
+				9231822724338D2A00C347B7 /* ShowHideView.swift in Sources */,
 				92F2A838242912E2006E11A5 /* PickerView.swift in Sources */,
 				92F2A83A242912EA006E11A5 /* TextfieldView.swift in Sources */,
+				923182252433836100C347B7 /* AnimatingGestures.swift in Sources */,
 				92F2A855242B9664006E11A5 /* ViewAsProperty.swift in Sources */,
+				924CFA072431EC2600428DE7 /* AnimationView.swift in Sources */,
 				92F2A8482429C7D7006E11A5 /* GradientView.swift in Sources */,
 				92F2A853242B95FE006E11A5 /* EnvironmentModifier.swift in Sources */,
+				927F74692433474C00037CBB /* ExplicitAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
