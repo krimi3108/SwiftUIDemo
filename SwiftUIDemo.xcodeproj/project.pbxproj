@@ -13,6 +13,13 @@
 		924CFA072431EC2600428DE7 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CFA062431EC2600428DE7 /* AnimationView.swift */; };
 		924CFA092431EC3000428DE7 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CFA082431EC3000428DE7 /* CustomAnimation.swift */; };
 		924CFA0B2431ED8700428DE7 /* AnimationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CFA0A2431ED8700428DE7 /* AnimationBinding.swift */; };
+		927A1B812434CE8A004DFD25 /* ObserableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B802434CE8A004DFD25 /* ObserableView.swift */; };
+		927A1B832434D2B7004DFD25 /* ShowHideUsingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B822434D2B7004DFD25 /* ShowHideUsingSheet.swift */; };
+		927A1B852435AD9E004DFD25 /* OnDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B842435AD9E004DFD25 /* OnDelete.swift */; };
+		927A1B872435B0A6004DFD25 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B862435B0A6004DFD25 /* UserDefault.swift */; };
+		927A1B892435B74A004DFD25 /* ArchivingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B882435B74A004DFD25 /* ArchivingData.swift */; };
+		927A1B8B2435CD97004DFD25 /* identical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B8A2435CD97004DFD25 /* identical.swift */; };
+		927A1B8D243AFA2E004DFD25 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A1B8C243AFA2E004DFD25 /* AddView.swift */; };
 		927F74692433474C00037CBB /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F74682433474C00037CBB /* ExplicitAnimation.swift */; };
 		92EB59A3242E0169005BADC2 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB59A2242E0169005BADC2 /* StepperView.swift */; };
 		92EB59A5242E0488005BADC2 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB59A4242E0488005BADC2 /* DatePickerView.swift */; };
@@ -48,6 +55,14 @@
 		924CFA062431EC2600428DE7 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		924CFA082431EC3000428DE7 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
 		924CFA0A2431ED8700428DE7 /* AnimationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBinding.swift; sourceTree = "<group>"; };
+		927A1B7E2434CE5D004DFD25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		927A1B802434CE8A004DFD25 /* ObserableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserableView.swift; sourceTree = "<group>"; };
+		927A1B822434D2B7004DFD25 /* ShowHideUsingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideUsingSheet.swift; sourceTree = "<group>"; };
+		927A1B842435AD9E004DFD25 /* OnDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDelete.swift; sourceTree = "<group>"; };
+		927A1B862435B0A6004DFD25 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		927A1B882435B74A004DFD25 /* ArchivingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingData.swift; sourceTree = "<group>"; };
+		927A1B8A2435CD97004DFD25 /* identical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identical.swift; sourceTree = "<group>"; };
+		927A1B8C243AFA2E004DFD25 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		927F74682433474C00037CBB /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
 		929DD62D2431CD55008930F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92EB59A0242E0151005BADC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -111,8 +126,24 @@
 		927A1B7D2434CCCC004DFD25 /* Seventh */ = {
 			isa = PBXGroup;
 			children = (
+				927A1B7E2434CE5D004DFD25 /* README.md */,
+				927A1B8A2435CD97004DFD25 /* identical.swift */,
+				927A1B8C243AFA2E004DFD25 /* AddView.swift */,
+				927A1B7F2434CE71004DFD25 /* SubComponents */,
 			);
 			path = Seventh;
+			sourceTree = "<group>";
+		};
+		927A1B7F2434CE71004DFD25 /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				927A1B802434CE8A004DFD25 /* ObserableView.swift */,
+				927A1B822434D2B7004DFD25 /* ShowHideUsingSheet.swift */,
+				927A1B842435AD9E004DFD25 /* OnDelete.swift */,
+				927A1B862435B0A6004DFD25 /* UserDefault.swift */,
+				927A1B882435B74A004DFD25 /* ArchivingData.swift */,
+			);
+			path = SubComponents;
 			sourceTree = "<group>";
 		};
 		929DD62A2431CD0A008930F9 /* Sixth */ = {
@@ -354,25 +385,32 @@
 				92F2A84A2429CE21006E11A5 /* ButtonView.swift in Sources */,
 				92F2A8442429C269006E11A5 /* StackView.swift in Sources */,
 				924CFA092431EC3000428DE7 /* CustomAnimation.swift in Sources */,
+				927A1B8D243AFA2E004DFD25 /* AddView.swift in Sources */,
+				927A1B8B2435CD97004DFD25 /* identical.swift in Sources */,
 				92F2A85C242BA2EE006E11A5 /* CustomContainer.swift in Sources */,
 				92F2A81C24291215006E11A5 /* AppDelegate.swift in Sources */,
+				927A1B832434D2B7004DFD25 /* ShowHideUsingSheet.swift in Sources */,
 				92EB59A5242E0488005BADC2 /* DatePickerView.swift in Sources */,
 				92F2A83C242916D9006E11A5 /* NavigationAndFormView.swift in Sources */,
 				92EB59AE242E333D005BADC2 /* Series_Fifth_Demo.swift in Sources */,
 				924CFA0B2431ED8700428DE7 /* AnimationBinding.swift in Sources */,
 				92F2A84C2429D3B9006E11A5 /* alertView.swift in Sources */,
 				92F2A81E24291215006E11A5 /* SceneDelegate.swift in Sources */,
+				927A1B892435B74A004DFD25 /* ArchivingData.swift in Sources */,
+				927A1B872435B0A6004DFD25 /* UserDefault.swift in Sources */,
 				92EB59AC242E2163005BADC2 /* ListView.swift in Sources */,
 				92F2A859242B9712006E11A5 /* CustomModifier.swift in Sources */,
 				92F2A84E2429FDD5006E11A5 /* Series_Two_Demo.swift in Sources */,
 				9231822324334B9C00C347B7 /* ControllingAnimation.swift in Sources */,
 				9231822724338D2A00C347B7 /* ShowHideView.swift in Sources */,
+				927A1B812434CE8A004DFD25 /* ObserableView.swift in Sources */,
 				92F2A838242912E2006E11A5 /* PickerView.swift in Sources */,
 				92F2A83A242912EA006E11A5 /* TextfieldView.swift in Sources */,
 				923182252433836100C347B7 /* AnimatingGestures.swift in Sources */,
 				92F2A855242B9664006E11A5 /* ViewAsProperty.swift in Sources */,
 				924CFA072431EC2600428DE7 /* AnimationView.swift in Sources */,
 				92F2A8482429C7D7006E11A5 /* GradientView.swift in Sources */,
+				927A1B852435AD9E004DFD25 /* OnDelete.swift in Sources */,
 				92F2A853242B95FE006E11A5 /* EnvironmentModifier.swift in Sources */,
 				927F74692433474C00037CBB /* ExplicitAnimation.swift in Sources */,
 			);
